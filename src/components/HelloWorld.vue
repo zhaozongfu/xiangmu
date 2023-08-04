@@ -44,9 +44,6 @@ html {
 
 .header span {
   font-weight: 700;
-  position: relative;
-  top: 0.5rem;
-
 }
 
 .header input {
@@ -55,7 +52,8 @@ html {
   padding-left: 1rem;
   border-radius: 2rem;
   position: relative;
-  top: 1rem;
+  left: -0.4rem;
+  top: 0.8rem;
   border: none;
   background-color: #F5F7F9;
   font-size: 0.5rem;
@@ -65,8 +63,8 @@ html {
 .header .icon {
   z-index: 1;
   position: relative;
-  top: 1.1rem;
-  left: 0.8rem;
+  top: 0.9rem;
+  left: 0.5rem;
 }
 
 .Under {
