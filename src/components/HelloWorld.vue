@@ -1,10 +1,8 @@
 <template>
-  <div class="hello">
     <div id="box">
       <headers></headers>
       <Unders></Unders>
     </div>
-  </div>
 </template>
 
 <script>
