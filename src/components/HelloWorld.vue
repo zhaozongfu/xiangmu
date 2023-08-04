@@ -1,58 +1,105 @@
 <template>
   <div class="hello">
-    <h1>{{ msg }}</h1>
-    <p>
-      For a guide and recipes on how to configure / customize this project,<br>
-      check out the
-      <a href="https://cli.vuejs.org" target="_blank" rel="noopener">vue-cli documentation</a>.
-    </p>
-    <h3>Installed CLI Plugins11111111111111111111111111111111111111</h3>
-    <ul>
-      <li><a href="https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-plugin-babel" target="_blank" rel="noopener">babel</a></li>
-      <li><a href="https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-plugin-eslint" target="_blank" rel="noopener">eslint</a></li>
-    </ul>
-    <h3>Essential Links</h3>
-    <ul>
-      <li><a href="https://vuejs.org" target="_blank" rel="noopener">Core Docs</a></li>
-      <li><a href="https://forum.vuejs.org" target="_blank" rel="noopener">Forum</a></li>
-      <li><a href="https://chat.vuejs.org" target="_blank" rel="noopener">Community Chat</a></li>
-      <li><a href="https://twitter.com/vuejs" target="_blank" rel="noopener">Twitter</a></li>
-      <li><a href="https://news.vuejs.org" target="_blank" rel="noopener">News</a></li>
-    </ul>
-    <h3>Ecosystem</h3>
-    <ul>
-      <li><a href="https://router.vuejs.org" target="_blank" rel="noopener">vue-router</a></li>
-      <li><a href="https://vuex.vuejs.org" target="_blank" rel="noopener">vuex</a></li>
-      <li><a href="https://github.com/vuejs/vue-devtools#vue-devtools" target="_blank" rel="noopener">vue-devtools</a></li>
-      <li><a href="https://vue-loader.vuejs.org" target="_blank" rel="noopener">vue-loader</a></li>
-      <li><a href="https://github.com/vuejs/awesome-vue" target="_blank" rel="noopener">awesome-vue</a></li>
-    </ul>
+    <div id="box">
+      <headers></headers>
+      <Unders></Unders>
+    </div>
   </div>
 </template>
 
 <script>
+const headers = {
+  name: "headers",
+  template: `
+            <div class="header">
+                <span>微信读书</span><br/>
+                <svg t="1691066616955" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="2598" id="mx_n_1691066616956" width="16" height="16"><path d="M756.565333 697.258667c2.133333 1.493333 4.224 3.157333 6.101334 5.12l241.664 241.621333c16.256 16.256 16.512 43.52-0.128 60.16a42.453333 42.453333 0 0 1-60.202667 0.170667l-241.664-241.664a41.429333 41.429333 0 0 1-5.034667-6.101334A424.917333 424.917333 0 0 1 426.666667 853.333333C191.018667 853.333333 0 662.314667 0 426.666667S191.018667 0 426.666667 0s426.666667 191.018667 426.666666 426.666667c0 102.698667-36.266667 196.949333-96.768 270.592zM426.666667 768a341.333333 341.333333 0 1 0 0-682.666667 341.333333 341.333333 0 0 0 0 682.666667z" fill="#8a8a8a" p-id="2599"></path></svg><input type="text" placeholder="搜索">
+            </div>
+           
+            `,
+}
+const Unders = {
+  name: "Unders",
+  template: `
+            <div class="Under">
+            </div>
+           
+            `,
+}
 export default {
-  name: 'HelloWorld',
-  props: {
-    msg: String
+  el: "#box",
+  components: {
+    headers,
+    Unders,
   }
 }
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-h3 {
-  margin: 40px 0 0;
-}
-ul {
-  list-style-type: none;
+* {
+  margin: 0;
   padding: 0;
+  list-style: none;
+  text-decoration: none;
 }
-li {
-  display: inline-block;
-  margin: 0 10px;
+
+html {
+  font-size: 31.25px;
+  overflow: hidden;
 }
-a {
-  color: #42b983;
+
+.header {
+  position: relative;
+  width: 12rem;
+  height: 4.18rem;
+  text-align: center;
+  font-size: 0.8rem;
+
+}
+
+.header span {
+  font-weight: 700;
+  position: relative;
+  top: 0.5rem;
+
+}
+
+.header input {
+  width: 10rem;
+  height: 1.4rem;
+  padding-left: 1rem;
+  border-radius: 2rem;
+  position: relative;
+  top: 1rem;
+  border: none;
+  background-color: #F5F7F9;
+  font-size: 0.5rem;
+  outline: none;
+}
+
+.header .icon {
+  z-index: 1;
+  position: relative;
+  top: 1.1rem;
+  left: 0.8rem;
+}
+
+.Under {
+  width: 10.5rem;
+  height: 5rem;
+  background-color: #56585f;
+  margin: auto;
+  border-radius: 0.4rem;
 }
 </style>
+<script>
+ (function () {
+        var styleNode = document.createElement("style");
+        var w = document.documentElement.clienwidth;
+        var w = document.documentElement.clientWidth / 12;
+        styleNode.innerHTML = "html{font-size:" + w + "px!important}";
+        document.head.appendChild(styleNode);
+    }
+    )()
+</script>
