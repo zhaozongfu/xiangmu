@@ -29,21 +29,21 @@ export default {
                     two: "1.明朝那些事儿(全集)",
                     three: "2.长安的荔枝",
                     four: "3.中华上下五千年",
-                    image: "https://img2.baidu.com/it/u=890633011,2811866994&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=667"
+                    image: "https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fimg.alicdn.com%2Fi3%2F2201510252011%2FO1CN01WHLmAR1Qj5ED4sIo7_%21%212201510252011.jpg&refer=http%3A%2F%2Fimg.alicdn.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=auto?sec=1694058286&t=805a4b482271a1a36a838a668b75a30d"
                 },
                 {
                     one: "文学",
                     two: "1.我与地坛",
                     three: "2.红楼梦",
                     four: "3.平凡的世界",
-                    image: "https://img1.baidu.com/it/u=932784564,2970727709&fm=253&fmt=auto&app=138&f=JPEG?w=556&h=500"
+                    image: "https://img0.baidu.com/it/u=2303528745,3666781656&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=633"
                 },
                 {
                     one: "艺术",
                     two: "1.生活蒙太奇",
                     three: "2.故事:材质、结构、风格",
                     four: "3.新摄影笔记",
-                    image: "https://img1.baidu.com/it/u=4184714248,1896311806&fm=253&fmt=auto&app=138&f=JPEG?w=357&h=500"
+                    image: "https://img2.baidu.com/it/u=2160705939,2555039146&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=587"
                 },
                 {
                     one: "人物传奇",

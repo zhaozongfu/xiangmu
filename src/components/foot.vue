@@ -48,8 +48,8 @@ export default {
     bottom: 0;
     width: 100%;
     height: 55px;
-    background-color: aqua;
-    
+    z-index: 1 !important;
+    background-color: #fff;
 }
 
 .foot ul li {

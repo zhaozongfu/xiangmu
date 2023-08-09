@@ -22,14 +22,14 @@ export default {
                 {
                     name: "夜盲",
                     zuozhe: "理查德发 | 推荐值99%",
-                    img: 'https://static.zongheng.com/upload/cover/2013/09/1378205229652.jpg',
+                    img: 'https://img0.baidu.com/it/u=187338145,3405076527&fm=253&fmt=auto&app=120&f=JPEG?w=500&h=500',
                     wocaole: '大家都在读',
                     image: "https://weread-1258476243.file.myqcloud.com/miniprogram/assets/reader/newRatings_900.png"
                 },
                 {
                     name: "我与阿长",
                     zuozhe: "干饭人 | 推荐值80%",
-                    img: 'https://img0.baidu.com/it/u=1706103225,3689347735&fm=253&fmt=auto&app=120&f=JPEG?w=508&h=675',
+                    img: 'https://img2.baidu.com/it/u=1260227346,89756717&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=500',
                     wocaole: '大家都在读',
                     image: "https://weread-1258476243.file.myqcloud.com/miniprogram/assets/reader/newRatings_870.png"
                 },
@@ -43,14 +43,14 @@ export default {
                 {
                     name: "壁江山",
                     zuozhe: "泡泡彤 | 推荐值99%",
-                    img: 'https://c-ssl.dtstatic.com/uploads/item/202004/12/20200412154603_qttuc.thumb.1000_0.png',
+                    img: 'https://img0.baidu.com/it/u=2344034425,227442519&fm=253&fmt=auto&app=120&f=JPEG?w=500&h=500',
                     wocaole: '大家都在读',
                     image: "https://weread-1258476243.file.myqcloud.com/miniprogram/assets/reader/newRatings_900.png"
                 },
                 {
                     name: "筑梦师",
                     zuozhe: "汰哆 | 推荐值80%",
-                    img: 'https://img0.baidu.com/it/u=4089613179,1805315913&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=839',
+                    img: 'http://t15.baidu.com/it/u=3630533125,2369354126&fm=224&app=112&f=JPEG?w=500&h=500',
                     wocaole: '大家都在读',
                     image: "https://weread-1258476243.file.myqcloud.com/miniprogram/assets/reader/newRatings_800.png"
                 },

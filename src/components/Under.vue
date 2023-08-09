@@ -7,7 +7,7 @@
       <p>体验卡今日道期</p>
     </div>
     <div class="max-boor">
-      <img src="https://img0.baidu.com/it/u=3046519200,1215599744&fm=253&fmt=auto&app=138&f=JPEG?w=342&h=500" alt=""
+      <img src="https://img2.baidu.com/it/u=3246181534,3185519499&fm=253&fmt=auto&app=138&f=JPEG?w=525&h=350" alt=""
         width="100%" height="100%">
     </div>
     <span class="span1">书架</span>

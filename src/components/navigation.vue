@@ -5,7 +5,7 @@
                 {{ tab.name }}
             </li>
         </ul>
-        <div v-for="(tab, index) in tabs" :key="index" v-show="index === activeTab">
+        <div v-for="(tab, index) in tabs" :key="index" v-show="index === activeTab" id="click">
             <component :is="tab.component"></component>
         </div>
     </div>
@@ -68,4 +68,8 @@ export default {
      color: #1B88EE;
      flex-wrap: 800;
     }
+#click{
+    width: 100%;
+    height:100%
+}
 </style>
