@@ -61,11 +61,9 @@ export default {
 
 <style  scoped>
 .Pdata {
-    position: relative;
-    top: -30px;
     width: 100%;
-    height: 100%;
-    margin-bottom: 60px;
+    overflow: auto;
+    margin-bottom: 80px;
 }
 
 .Ptext {

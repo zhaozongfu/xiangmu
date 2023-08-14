@@ -78,6 +78,7 @@ export default {
 .fooder {
     width: 100%;
     height: 100%;
+    overflow: auto;
     margin-bottom: 80px;
 }
 

@@ -71,7 +71,7 @@ export default {
     position: relative;
     top: -30px;
     width: 100%;
-    height: 100%;
+    overflow: auto;
     margin-bottom: 60px;
 }
 
