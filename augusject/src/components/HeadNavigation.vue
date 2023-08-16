@@ -13,7 +13,9 @@
       </ul>
     </div>
     <div v-for="(item, index) in list" :key="index" v-show="index === activeTab" class="click111">
-      <component :is="item.component"></component>
+      <transition name="slide">
+        <component :is="item.component"></component>
+      </transition>
     </div>
   </div>
 </template>
@@ -62,6 +64,15 @@ export default {
 </script>
 
 <style scoped>
+.slide-enter {
+  transform: translateX(-100%);
+}
+.slide-enter-active {
+  transition: transform 0.5s;
+}
+.slide-leave-to {
+  transform: translateX(100%);
+}
 .ztext {
   width: 100%;
   height: 570px;
